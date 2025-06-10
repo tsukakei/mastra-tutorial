@@ -1,0 +1,30 @@
+{
+  "name": "mastra-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "mastra dev",
+    "build": "mastra build",
+    "start": "mastra start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "dependencies": {
+    "@ai-sdk/amazon-bedrock": "^2.2.10",
+    "@mastra/core": "^0.10.3",
+    "zod": "^3.25.57"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "mastra": "^0.10.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
